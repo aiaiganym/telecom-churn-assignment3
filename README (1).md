@@ -19,9 +19,9 @@ Ensemble search budget: n_iter=10 (Orange), n_iter=6 (Cell2Cell). Logistic Regre
 3. Tuning results are cached in `objects/`; delete them to recompute.
 
 ## Environment used
-Python 3.13.16, Linux-6.6.122+-x86_64-with-glibc2.39, 2 CPU cores, no GPU.
+Python 3.13.16, Linux-6.6.122+-x86_64-with-glibc2.39; Google Colab CPU runtime
+(Intel Xeon 2.20 GHz, 2 cores, 12.7 GB RAM, no GPU). Pinned library versions
+are in requirements.txt. Total tuning and final fitting time: about 314 min
+(296 min Cell2Cell, 18 min Orange), excluding bootstrap, tests and SHAP.
 
-## Outputs
-`tables/` (CSV and LaTeX), `figures/` (PDF and SVG).
-
-Repository URL: TBD
+Repository: https://github.com/aiaiganym/telecom-churn-assignment3
